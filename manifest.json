@@ -1,0 +1,10 @@
+{
+  "name": "Give it time to breathe",
+  "description": "Give your develop branch a little time to breathe!",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["storage"]
+}
