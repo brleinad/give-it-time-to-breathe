@@ -18,5 +18,8 @@
             "run_at": "document_end",
             "all_frames": false
         }
-    ]
+    ],
+    "action": {
+    "default_popup": "popup.html"
+  }
 }
