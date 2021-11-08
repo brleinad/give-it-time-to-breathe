@@ -18,6 +18,8 @@ Whenever you want to remind yourself to give it a little time to breath just act
 ![image](https://user-images.githubusercontent.com/12233785/140826924-a78ddfec-db51-4019-b83c-575d661f7efb.png)
 
 
-Once active whenever you hit the 'Merge' button you will get a quick reminder 
+Once active whenever you hit the 'Merge' button you will get a quick reminder for one day. 
 
 ![image](https://user-images.githubusercontent.com/12233785/140827088-4cff8b1f-8882-47b0-9db0-ed4ee8947a17.png)
+
+After one day the extension will stop reminding so if you will have to reactivate it again if needed.
