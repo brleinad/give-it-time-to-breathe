@@ -10,9 +10,7 @@ window.addEventListener('load', () => {
       mergeButton.addEventListener('click', event => {
         chrome.storage.local.get(['enabled', 'startDate'], ({ enabled, startDate }) => {
           if (enabled) {
-            // startDate = new Date(startDate)
             const oneDayAgo = new Date().getTime() - (24 * 60 * 60 * 1000)
-            console.log({startDate, oneDayAgo})
             if (startDate > oneDayAgo) {
               // The start date is less than 1 day ago
               event.preventDefault()
