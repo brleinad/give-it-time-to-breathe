@@ -8,9 +8,14 @@ window.addEventListener('load', () => {
       clearInterval(interval)
       console.log('merge button: ', mergeButton)
       mergeButton.addEventListener('click', event => {
-        event.preventDefault()
-        alert('Give it a little time to breathe')
-        console.log('Give it a little time to breathe')
+        chrome.storage.local.get(['enabled'], ({ enabled }) => {
+          console.log('ENABLEd: ', enabled)
+          if (enabled) {
+            event.preventDefault()
+            alert('Give it a little time to breathe')
+            console.log('Give it a little time to breathe')
+          }
+        })
       })
     }
   }, 1000)
