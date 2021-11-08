@@ -13,5 +13,8 @@ chrome.storage.local.get(['enabled'], ({ enabled }) => {
 
 statusCheckbox.addEventListener('click', () => {
   console.log('value: ', statusCheckbox.checked)
-  chrome.storage.local.set({enabled: statusCheckbox.checked})
+  chrome.storage.local.set({
+    enabled: statusCheckbox.checked,
+    startDate: Date.now(),
+    })
 })
